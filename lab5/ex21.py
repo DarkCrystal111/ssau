@@ -1,6 +1,7 @@
 count = 0
-x = 10
+x = int(input("Введите x: "))
+km = 0
 while count < 7:
-    x += x/100*10
+    km += x + km //10
     count += 1
-print("Спортсмен пробежал:", round(x, 3), "км.")
+print("Спортсмен пробежал:", round(km, 3), "км.")
