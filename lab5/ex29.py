@@ -1,8 +1,10 @@
-count = 2 # т.к. 5 уже задана, а + 1 count только в конце
+count = 1
 number = 5
 step = 4
-while number <= 324:
-    number += number + step
+total = 5
+while total < 324:
+    number = number + step
+    total += number
     count += 1
 
 print("Нужно взять", count, "слагаемых")
